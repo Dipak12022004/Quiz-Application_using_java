@@ -23,38 +23,43 @@ The application allows users to enter their name, read quiz rules, answer multip
 
 **🛠️ Technologies Used**
 
-Technology	Purpose
-Java	Core programming language
-Java Swing	Graphical User Interface
-Java AWT	GUI components and event handling
-JFrame	Application windows
-JLabel	Text and labels
-JButton	Buttons and actions
-JRadioButton	Multiple-choice options
-ButtonGroup	Select one answer
-ActionListener	Handle user actions
+1. Technology	Purpose, 
+2. Java	Core programming language, 
+3. Java Swing	Graphical User Interface, 
+4. Java AWT	GUI components and event handling, 
+5. JFrame	Application windows, 
+6. JLabel	Text and labels, 
+7. JButton	Buttons and actions, 
+8. JRadioButton	Multiple-choice options, 
+9. ButtonGroup	Select one answer, 
+10. ActionListener	Handle user actions.
 
 **🖥️ Application Modules**
 
-1. Login Module
+1. Login Module:
+
 Allows the user to enter their name.
 Validates that the name is not empty.
 Provides Next and Exit buttons.
-2. Rules Module
+
+2. Rules Module:
 
 Displays the quiz instructions before starting.
-
 Total of 10 questions.
 15 seconds per question.
 No secondary devices allowed according to the displayed rules.
 Start Quiz and Back buttons.
-3. Quiz Module
+
+3. Quiz Module:
+
 Displays Java-related multiple-choice questions.
 Provides four answer options.
 Includes a countdown timer.
 Supports Next, Submit, and 50-50 Help.
 Calculates the final score.
-4. Score Module
+
+4. Score Module: 
+
 Displays the user's name.
 Shows the final score.
 Displays a pass or try-again message.
@@ -62,33 +67,15 @@ Provides Play Again and Exit buttons.
 
 **🔄 Application Workflow**
 
-Login Screen
-     ↓
-Enter Name
-     ↓
-Rules Screen
-     ↓
-Start Quiz
-     ↓
-Answer 10 Questions
-     ↓
-15 Seconds Per Question
-     ↓
-Submit Answers
-     ↓
-Calculate Score
-     ↓
-Display Result
-     ↓
-Play Again / Exit
+Login Screen --> Enter Name --> Rules Screen --> Start Quiz --> Answer 10 Questions --> 15 Seconds Per Question --> Submit Answers --> Calculate Score --> Display --> Result --> Play Again / Exit
 
 
 **📊 Scoring System**
 
-Total questions: 10
-Marks per correct answer: 10
-Maximum score: 100
-Passing score: 50
+Total questions: 10, 
+Marks per correct answer: 10, 
+Maximum score: 100, 
+Passing score: 50.
 
 The application calculates the score automatically based on the selected answers.
 
